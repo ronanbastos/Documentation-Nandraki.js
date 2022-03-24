@@ -289,7 +289,7 @@ bd_clear: function()
   
 Camera: function()
 
-	game.camera("2d",x,y )
+	game.camera("2d",x,y,limitX,limitY)
 			
 spawn sprite: function()
 
