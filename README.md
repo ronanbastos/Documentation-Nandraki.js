@@ -85,23 +85,20 @@ force_obj function(id,x,y,rotate)
 	 
 Simples gravidade div dom
 
-		// version 1.4.5
-	            fora do loop{
-		  	    Nandraki.create_sprite(id player, camadas, img1, img2, img3, img4, img5, width, height, boxl, boxh, left, top);
- 		   	    const player = new Nandraki(id player,vida, gravidade, velocidade, massa, di, up, mirror, anim, jump, frame);
-			    
-		    }
-		    dentro do loop update{
-			    
-			    game.force_obj("player", player.di, player.up, false);
-			    
-			    if(player.up >= chao.up){
-			     player.up = player.up
-			    }else{
-			     game.gravit(player) ou player.up+=5
-			    }
-		    
-		    }
+		game.force_obj("id",x, y,false)
+		y += gravitySpeed;
+		var end = 500;
+		if (y >= end) {
+		    y = end;
+		    gravitySpeed=5
+		    pulo=1
+		   //gravitySpeed = -(gravitySpeed * bounce);
+		   
+		}else{
+		
+		   gravitySpeed += gravity;
+
+		}
 		    
     
 
