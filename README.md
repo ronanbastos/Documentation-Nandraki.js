@@ -99,9 +99,19 @@ Simples gravidade div dom
 		   gravitySpeed += gravity;
 
 		}
-		    
-    
+		or
+		
+		obj={
+		    up:0,
+		    di:0,
+		    velocidade:0,
+		    gravidade:0.05
 
+		}
+		
+		game.force_obj("id",x,obj.up,false)
+		game.gravity(obj,fim,bounce,velue)
+	
 Click Mouse
 
 		function click(){
