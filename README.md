@@ -52,6 +52,7 @@ Start game
 	     game.update(myjogo.loop,fps);  
 	     
 	    // }
+	    
 	  //canvas game{  
 	    
 	    function game(){
