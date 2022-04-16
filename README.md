@@ -359,7 +359,7 @@ canvas_rect: function()
 	   game.canvas_rect(Nandraki,0,430,500,50)
 
 
-img_canvas: function(context,obj,src,x,y,width,height,ative) return obj{x:x,y:y,ative:true || false}
+img_canvas: function(context,obj,src,x,y,width,height,ative) return obj{x:x,y:y,ative:true or false}
 
 	bloco=game.img_canvas(Nandraki,"bloco","bloco.png",10,10,64,64,true)		
 	//bloco.x return 10
