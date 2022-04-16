@@ -1,12 +1,9 @@
 
 Welcome to the Nandraki.js!
 
-|Alfa documentação 1.4.5 ultima versão ante do hard rest do codigo para Beta
+|2.0.0 function game.canvas_start("canvas",800,500) && game.context("canvas")
 
-|1.4.5 colocamos camada de animação de sprite
-
-|Beta tem previsão para 2023 com versão 3.0
-      
+|Beta version 2023 [3.0]      
        
 Verficar Version
 
@@ -35,6 +32,8 @@ Detectar colisão Nandraki.js
 
 Start game
 
+	   //javascript e html{
+	   
 	      game.create_obj(div,text);
 	      
 	      myjogo = {
@@ -51,7 +50,21 @@ Start game
 
 	     fps=60;	
 	     game.update(myjogo.loop,fps);  
-
+	     
+	    // }
+	  //canvas game{  
+	    
+	    function game(){
+		
+	   Nandraki.clearRect(0, 0, canvas.width, canvas.height);	
+	   Nandraki.beginPath(); 
+	   
+           Nandraki.stroke();		
+	   game.rest(game,canvas);	
+	   }
+	   game.loop(game,canvas)
+	  
+	  //}
 
 Criar canvas
 
@@ -307,3 +320,71 @@ display item: function()
 	 // none=ocuto
 	 // block=visivel
 	 game.display(id obj,"none")
+	 
+start canvas: function()
+	
+	game.canvas_start("canvas",800,500)	
+	game.context("canvas") //return context Nandraki
+	
+	//in loop game{
+	Nandraki.functionCanvas
+	
+	Nandraki.clearRect(0, 0, canvas.width, canvas.height);	
+	Nandraki.beginPath(); 
+	Nandraki.stroke();
+	//}
+
+context: function (id) 
+	
+	//canvas = document.getElementById(id);
+        //Nandraki = canvas.getContext('2d');
+	
+    	game.context("canvas id") //return Nandraki;
+	
+loop canvas: 
+
+	function game(){
+		
+	   Nandraki.clearRect(0, 0, canvas.width, canvas.height);	
+	   Nandraki.beginPath(); 
+	   
+           Nandraki.stroke();		
+	   game.rest(game,canvas);	
+	}
+	   game.loop(game,canvas)
+	
+canvas_rect: function()
+	
+	   game.canvas_rect(Nandraki,0,430,500,50)
+
+
+img_canvas: function(context,obj,src,x,y,width,height,ative) return obj{x:x,y:y,ative:true || false}
+
+	bloco=game.img_canvas(Nandraki,"bloco","bloco.png",10,10,64,64,true)		
+	//bloco.x return 10
+	//bloco.y return 10
+	//bloco.ative return true
+	     
+frame_sprite: function (name, src, context, width, height, frameIndex, row, tickCount, ticksPerFrame, frames) return name
+	
+	//context canvas Nandraki
+	
+	runPlayer=game.frame_sprite("player","player.png",Nandraki,64,64,0,5,0,5,5)
+	
+
+render_sprite: function (obj,context,x,y)
+
+	//context canvas Nandraki
+	
+	game.render_sprite(runPlayer,Nandraki,x,y)	
+
+gravity: function (obj, end, bounce, velue)
+	
+	obj={
+	up:0,
+	velocidade:0,
+	gravidade:0.05
+	}
+	
+	game.gravity(obj,500,false,0.5)
+	
