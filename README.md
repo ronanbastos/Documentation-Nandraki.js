@@ -388,4 +388,31 @@ gravity: function (obj, end, bounce, velue)
 	}
 	
 	game.gravity(obj,500,false,0.5)
+
+check x e y:function (id)
+	    get_left: function (id) {
+
+
+		let x = document.getElementById(id).offsetLeft;
+		return x;
+
+	    },
+	    get_tx: function(id){
+		const style =  window.getComputedStyle(document.getElementById(id))
+		let matrix = new WebKitCSSMatrix(style.transform)
+		return matrix.m41
+
+	    },
+	    get_ty:function(id){
+		const style =  window.getComputedStyle(document.getElementById(id))
+		let matrix = new WebKitCSSMatrix(style.transform)
+		return matrix.m42
+	    },
+	    get_top: function (id) {
+
+
+		let y = document.getElementById(id).offsetTop;
+		return y;
+
+	    },
 	
