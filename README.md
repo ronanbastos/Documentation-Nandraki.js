@@ -389,7 +389,7 @@ gravity: function (obj, end, bounce, velue)
 	
 	game.gravity(obj,500,false,0.5)
 
-check  [x]/[y] in game: function arg (id)
+get [x]/[y] in game: function arg (id)
 	  
 	  game.get_left(id) -> return document.getElementById(id).offsetLeft;
 	  game.get_top(id) -> return document.getElementById(id).offsetTop; 
