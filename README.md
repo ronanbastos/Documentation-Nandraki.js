@@ -378,18 +378,18 @@ Passo 4: Defina a propriedade body como o elemento HTML com o ID especificado po
 
 Passo 5: O objeto Nandraki agora está pronto para ser instanciado usando a palavra-chave new.
 
- #todos metodos da class Nandraki.js:
+ #Todos metodos da class Nandraki.js:
 
-		Nandraki.create\_sprite(id, camadas, img1, img2, img3, img4, img5, width, height, boxl, boxh, left, top)	
+			    Nandraki.create_sprite(id, camadas, img1, img2, img3, img4, img5, width, height, boxl, boxh, left, top)	
+			    Nandraki. create_ui(id,txt,cor)
+			    Nandraki.move_obj(id,left,top,fixed)
+			    Nandraki.create_sprite(id, camadas, img1, img2, img3, img4, img5, width, height, boxl, boxh, left, top)	
+			    constructor(id,vida, gravidade, velocidade, massa, di, up, mirror, anim, jump, frame)
+			    Nandraki. create_ui(id,txt,cor)
+			    Nandraki.move_obj(id,left,top,fixed)
+			    		 		                          Nandraki.create_sprite(player.id,5,player.img.parado,player.img.andando,player.img.pulo,player.img.atacando01,player.img.atacando02,64,64,15,32,250,250)
 
-		Nandraki. create\_ui(id,txt,cor)
-
-		Nandraki.move\_obj(id,left,top,fixed)
-
-		Nandraki.create\_sprite(id, camadas, img1, img2, img3, img4, img5, width, height, boxl, boxh, left, top)	
-
-		constructor(id,vida, gravidade, velocidade, massa, di, up, mirror, anim, jump, frame)
-
-		Nandraki. create\_ui(id,txt,cor)
-
-		Nandraki.move\_obj(id,left,top,fixed)
+			    Nandraki.create_box("player",20,20,0,0,"block")
+			    Nandraki.move_obj("box_player",game.get_tx(player.id)+20,game.get_ty(player.id)+25,false)
+			    Nandraki.ative_box("box_player",false)
+	
