@@ -266,3 +266,40 @@ Aqui está um exemplo básico de código usando Nandraki.js:
 
     update: essa função é utilizada para atualizar o jogo em um intervalo de tempo determinado pelo parâmetro fps. A função recebe como parâmetros a função do jogo a ser atualizada e a taxa de quadros por segundo desejada. A função utiliza a função setInterval para atualizar o jogo a cada intervalo de tempo especificado em fps.
     
+
+#Exemplo 1: Criar objeto com Classe Nandraki
+
+
+
+	class Nandraki {
+	  constructor(id,vida, gravidade, velocidade, massa, di, up, mirror, anim, jump, frame){
+	    this.id = id;
+	    this.vida = vida;
+	    this.gravidade = gravidade;
+	    this.velocidade = velocidade;
+	    this.massa = massa;
+	    this.di = di;
+	    this.up = up;
+	    this.mirror = mirror;
+	    this.anim = anim;
+	    this.jump = jump;
+	    this.frame = frame;
+	    this.body = document.getElementById(obj.id);
+	  }
+	}
+
+	    Passo 1: Defina uma nova classe chamada Nandraki usando a palavra-chave class.
+	    Passo 2: Dentro da classe, defina o método constructor com os parâmetros id,vida, gravidade, velocidade, massa, di, up, mirror, anim, jump, frame.
+	    Passo 3: Atribua esses parâmetros às propriedades correspondentes do objeto usando a sintaxe this.propriedade = valor.
+	    Passo 4: Defina a propriedade body como o elemento HTML com o ID especificado por id usando document.getElementById.
+	    Passo 5: O objeto Nandraki agora está pronto para ser instanciado usando a palavra-chave new.
+	    
+	    todos metodos da class Nandraki.js:
+	    
+	    Nandraki.create_sprite(id, camadas, img1, img2, img3, img4, img5, width, height, boxl, boxh, left, top)	
+	    Nandraki. create_ui(id,txt,cor)
+ 	    Nandraki.move_obj(id,left,top,fixed)
+            Nandraki.create_sprite(id, camadas, img1, img2, img3, img4, img5, width, height, boxl, boxh, left, top)	
+            constructor(id,vida, gravidade, velocidade, massa, di, up, mirror, anim, jump, frame)
+            Nandraki. create_ui(id,txt,cor)
+            Nandraki.move_obj(id,left,top,fixed)
