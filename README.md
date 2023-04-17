@@ -1,3 +1,32 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+
+		<script src="https://unpkg.com/nandraki@2.1.0/nandraki.js" ></script>
+	</head>
+	<body>
+
+		<script>
+		       Nandraki.create_ui("text_id","[hello world]")
+		       myjogo = {
+
+
+			 start : function(){
+
+
+			  // Nandraki.create_ui("text_id","hello world")	
+
+
+			 },	
+		       }
+
+		       fps=60;	
+		       game.update(myjogo.start,fps);  
+
+	</script>
+	</body>
+	</html>
+
 "Nandraki" com tem alguns métodos estáticos para criação e movimento de elementos gráficos (sprites) e elementos de interface do usuário (UI).
 
 Aqui está uma breve explicação dos métodos da classe:
