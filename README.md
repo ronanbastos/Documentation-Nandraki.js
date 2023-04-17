@@ -70,11 +70,11 @@ Aqui está um exemplo básico de código usando Nandraki.js:
 
 		function jogo(){
 
-		`			   `Nandraki.clearRect(0, 0, canvas.width, canvas.height);
+			Nandraki.clearRect(0, 0, canvas.width, canvas.height);
 
-		`			   `game.render\_sprite(player,Nandraki,x,y)
+			game.render\_sprite(player,Nandraki,x,y)
 
-		`			   `game.rest(jogo,canvas);
+			game.rest(jogo,canvas);
 
 		}
 
