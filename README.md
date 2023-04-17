@@ -378,18 +378,18 @@ Passo 4: Defina a propriedade body como o elemento HTML com o ID especificado po
 
 Passo 5: O objeto Nandraki agora está pronto para ser instanciado usando a palavra-chave new.
 
-todos metodos da class Nandraki.js:
+ #todos metodos da class Nandraki.js:
 
-Nandraki.create\_sprite(id, camadas, img1, img2, img3, img4, img5, width, height, boxl, boxh, left, top)	
+		Nandraki.create\_sprite(id, camadas, img1, img2, img3, img4, img5, width, height, boxl, boxh, left, top)	
 
-Nandraki. create\_ui(id,txt,cor)
+		Nandraki. create\_ui(id,txt,cor)
 
-Nandraki.move\_obj(id,left,top,fixed)
+		Nandraki.move\_obj(id,left,top,fixed)
 
-Nandraki.create\_sprite(id, camadas, img1, img2, img3, img4, img5, width, height, boxl, boxh, left, top)	
+		Nandraki.create\_sprite(id, camadas, img1, img2, img3, img4, img5, width, height, boxl, boxh, left, top)	
 
-constructor(id,vida, gravidade, velocidade, massa, di, up, mirror, anim, jump, frame)
+		constructor(id,vida, gravidade, velocidade, massa, di, up, mirror, anim, jump, frame)
 
-Nandraki. create\_ui(id,txt,cor)
+		Nandraki. create\_ui(id,txt,cor)
 
-Nandraki.move\_obj(id,left,top,fixed)
+		Nandraki.move\_obj(id,left,top,fixed)
