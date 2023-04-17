@@ -30,6 +30,7 @@
 	</body>
 	</html>
 
+<br>
 "Nandraki" com tem alguns métodos estáticos para criação e movimento de elementos gráficos (sprites) e elementos de interface do usuário (UI).
 
 Aqui está uma breve explicação dos métodos da classe:
