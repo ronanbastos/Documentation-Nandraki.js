@@ -229,43 +229,43 @@ A função camera recebe cinco parâmetros: o especto da câmera (2D ou canvas:2
 A função camera\_move recebe um array de IDs de elementos HTML e uma quantidade de deslocamento x como parâmetros. Ela seleciona cada elemento com o ID especificado e define sua propried
 
 
-Descrição: fpsFrame(obj, func, fps) Uma função para limitar os frames por segundo de uma animação.
+	Descrição: fpsFrame(obj, func, fps) Uma função para limitar os frames por segundo de uma animação.
 
-Parâmetros:
+	Parâmetros:
 
-obj: um objeto para acompanhar os frames por segundo
+	obj: um objeto para acompanhar os frames por segundo
 
-func: uma função de retorno para ser executada quando o limite de fps for atingido
+	func: uma função de retorno para ser executada quando o limite de fps for atingido
 
-fps: os frames por segundo desejados
+	fps: os frames por segundo desejados
 
-Valor de retorno: nenhum
+	Valor de retorno: nenhum
 
-Descrição:  frame\_sprite(name, src, context, width, height, frameIndex, row, tickCount, ticksPerFrame, frames) Uma função para criar um objeto sprite com propriedades de animação
+	Descrição:  frame\_sprite(name, src, context, width, height, frameIndex, row, tickCount, ticksPerFrame, frames) Uma função para criar um objeto sprite com propriedades de animação
 
-`				`Parâmetros:
+	`				`Parâmetros:
 
-`				    `name: uma variável para armazenar o objeto sprite
+	`				    `name: uma variável para armazenar o objeto sprite
 
-`				    `src: a fonte de imagem do sprite
+	`				    `src: a fonte de imagem do sprite
 
-`				    `context: o contexto do canvas para renderizar o sprite
+	`				    `context: o contexto do canvas para renderizar o sprite
 
-`				    `width: a largura de cada frame do sprite
+	`				    `width: a largura de cada frame do sprite
 
-`				    `height: a altura de cada frame do sprite
+	`				    `height: a altura de cada frame do sprite
 
-`				    `frameIndex: o índice do frame sprite atual
+	`				    `frameIndex: o índice do frame sprite atual
 
-`				    `row: a linha do frame sprite atual
+	`				    `row: a linha do frame sprite atual
 
-`				    `tickCount: a contagem de ticks desde a última mudança de frame
+	`				    `tickCount: a contagem de ticks desde a última mudança de frame
 
-`				    `ticksPerFrame: o número de ticks antes de mudar para o próximo frame
+	`				    `ticksPerFrame: o número de ticks antes de mudar para o próximo frame
 
-`				    `frames: o número total de frames na folha de sprite
+	`				    `frames: o número total de frames na folha de sprite
 
-`				`Valor de retorno: o objeto sprite
+	`				`Valor de retorno: o objeto sprite
 
 update\_sprite: Essa função é responsável por atualizar o sprite de uma imagem. Ela recebe como parâmetro o objeto que representa o sprite e atualiza o índice do quadro atual do sprite, de acordo com o número de ticks por quadro.
 
