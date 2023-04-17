@@ -1,4 +1,4 @@
-Este é um código em JavaScript que define uma classe chamada "Nandraki" com alguns métodos estáticos para criação e movimento de elementos gráficos (sprites) e elementos de interface do usuário (UI).
+"Nandraki" com tem alguns métodos estáticos para criação e movimento de elementos gráficos (sprites) e elementos de interface do usuário (UI).
 
 Aqui está uma breve explicação dos métodos da classe:
 
