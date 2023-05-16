@@ -31,6 +31,9 @@
 	</html>
 
 <br>
+
+Projetos prontos: https://github.com/ronanbastos/Nandraki.js/tree/main/Demonstration
+
 "Nandraki" com tem alguns métodos estáticos para criação e movimento de elementos gráficos (sprites) e elementos de interface do usuário (UI).
 
 Aqui está uma breve explicação dos métodos da classe:
