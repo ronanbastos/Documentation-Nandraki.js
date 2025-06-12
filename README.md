@@ -3,12 +3,7 @@
 </h1>
 <br>
 
-<!DOCTYPE html>
-<html>
-<head>
-  <script src="https://unpkg.com/nandraki@2.1.0/nandraki.js"></script>
-</head>
-<body>
+
   <script>
     Nandraki.create_ui("text_id","[hello world]")
     myjogo = {
@@ -19,8 +14,7 @@
     fps=60;	
     game.update(myjogo.start,fps);  
   </script>
-</body>
-</html>
+
 
 <br>
 
