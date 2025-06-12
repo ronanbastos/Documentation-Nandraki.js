@@ -4,6 +4,7 @@
 <br>
 
 <p>Projetos prontos: <a href="https://github.com/ronanbastos/Nandraki.js/tree/main/Demonstration">https://github.com/ronanbastos/Nandraki.js/tree/main/Demonstration</a></p>
+
 <code>
   
     <!DOCTYPE html>
@@ -173,8 +174,6 @@ Nandraki.ative_box("box_player",false)</code></pre>
   <li>PrototypeFactory permite clonar objetos registrados.</li>
   <li>Game é a interface simplificada para criar objetos e interagir com a cena 3D.</li>
 </ul>
-
-[draki 3d]
 
 
 	<script src="draki3d.js"></script>
