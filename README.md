@@ -3,21 +3,6 @@
 </h1>
 <br>
 
-
-  <script>
-    Nandraki.create_ui("text_id","[hello world]")
-    myjogo = {
-      start: function(){
-        // Nandraki.create_ui("text_id","hello world")	
-      },	
-    }
-    fps=60;	
-    game.update(myjogo.start,fps);  
-  </script>
-
-
-<br>
-
 <p>Projetos prontos: <a href="https://github.com/ronanbastos/Nandraki.js/tree/main/Demonstration">https://github.com/ronanbastos/Nandraki.js/tree/main/Demonstration</a></p>
 
 <p>"Nandraki" com tem alguns métodos estáticos para criação e movimento de elementos gráficos (sprites) e elementos de interface do usuário (UI).</p>
