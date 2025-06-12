@@ -2,30 +2,29 @@
   <img src="https://i.ibb.co/n3BMNKM/logo.png" alt="mascote" border="0">
 </h1>
 <br>
-<code>
-<!DOCTYPE html>
-<html>
-<head>
-  <script src="https://unpkg.com/nandraki@2.1.0/nandraki.js"></script>
-</head>
-<body>
-  <script>
-    Nandraki.create_ui("text_id","[hello world]")
-    myjogo = {
-      start: function(){
-        // Nandraki.create_ui("text_id","hello world")	
-      },
-    }
-    fps=60;	
-    game.update(myjogo.start,fps);  
-  </script>
-</body>
-</html>
-</code>
-<br>
 
 <p>Projetos prontos: <a href="https://github.com/ronanbastos/Nandraki.js/tree/main/Demonstration">https://github.com/ronanbastos/Nandraki.js/tree/main/Demonstration</a></p>
-
+<code>
+  
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <script src="https://unpkg.com/nandraki@2.1.0/nandraki.js"></script>
+    </head>
+    <body>
+      <script>
+        Nandraki.create_ui("text_id","[hello world]")
+        myjogo = {
+          start: function(){
+            // Nandraki.create_ui("text_id","hello world")	
+          },
+        }
+        fps=60;	
+        game.update(myjogo.start,fps);  
+      </script>
+    </body>
+    </html>
+</code>
 <p>"Nandraki" com tem alguns métodos estáticos para criação e movimento de elementos gráficos (sprites) e elementos de interface do usuário (UI).</p>
 
 <h2>Métodos da classe:</h2>
@@ -174,3 +173,41 @@ Nandraki.ative_box("box_player",false)</code></pre>
   <li>PrototypeFactory permite clonar objetos registrados.</li>
   <li>Game é a interface simplificada para criar objetos e interagir com a cena 3D.</li>
 </ul>
+
+[draki 3d]
+
+
+	<script src="draki3d.js"></script>
+    <script>
+
+    // Exemplo de como o usuário pode interagir diretamente
+    const draki = new ThreeCore();
+    draki.init(document.body);
+    
+    // Criação dos objetos diretamente
+    let cubo = Game.create('cube');
+    cubo.position.set(5,0, 0);
+    
+    
+    let camera = Game.create('camera');
+    camera.position.set(5,0,5);
+    
+    
+    let luz = Game.create('light');
+    luz.position.set(0,5,10);
+    
+    
+    // Animando o cubo
+    draki.animate = function () {
+      cubo.rotation.y += 0.05;
+      cubo.rotation.x += 0.01;
+      draki.renderer.render(draki.scene, camera);
+      requestAnimationFrame(draki.animate);
+    };
+    
+    draki.scene.add(camera);
+    draki.scene.add(cubo);
+    draki.scene.add(luz);
+
+    </script>
+
