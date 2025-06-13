@@ -1,4 +1,4 @@
-<h1 align="center"> <img src="https://i.ibb.co/n3BMNKM/logo.png" alt="mascote"  border="0"></h1>
+
 <br>
 
 	<!DOCTYPE html>
